@@ -127,3 +127,17 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
  ************************************************/
+
+ /* la larghezza dello schermo diventa:
+    - tablet: dai 768px in giù
+    - mobile: dai 480px in giù 
+*/
+
+@media screen and (max-width: 768px){
+        .container{
+            width: 80%;
+        }
+        .steps{
+            width: 100%;
+        }
+}
